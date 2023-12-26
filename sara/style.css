@@ -1,0 +1,299 @@
+:root{
+	--primary: rgba(149,170,99,1);
+}
+*{
+    scroll-behavior: smooth;
+
+	box-sizing: border-box;
+}
+body{
+	/* font-family: 'Kaushan Script', cursive; */
+	font-family: 'Satisfy', cursive;
+	margin: 0;
+	padding: 0;
+}
+header{
+	    background: rgb(149,170,99);
+background: linear-gradient(90deg, rgba(149,170,99,1) 0%, rgba(169,199,172,1) 100%);
+		color: whitesmoke;
+		font-family: serif;
+		size: 30px;
+		position: sticky;
+		top: 0;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.align-center{
+	align-items: center;
+}
+.flex{
+	display: flex;
+}
+.logo{
+	flex-basis: 30%;
+}
+nav{
+	flex-basis: 70%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+    list-style: none;
+}
+
+header nav a {
+    color: floralwhite; 
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 25px;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 4px;
+}
+
+header nav a:hover{
+	background: floralwhite;
+    color: var(--primary);
+}
+header  .logo a{
+	   font-family: 'Kaushan Script', cursive;
+        color: floralwhite;
+        text-decoration: none;
+}
+
+.banner-section{
+    padding: 50px;
+}
+
+.banner-section img{
+    height:60vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    box-shadow: 0 55px 20px -50px #3333334f;
+}
+ 
+}
+
+.feature-section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.feature{
+	padding: 40px 50px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 10px;
+}
+.feature h2{
+	font-size: 26px;
+	margin: 0px;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 700;
+}
+.feature p{
+	font-size: 24px;
+	margin: 0;
+	padding-top: 5px;
+	line-height: 1.2;
+}
+
+.color1{background-color: #a8c6a9;}
+.color2{background-color: #a9c7aac7;}
+.color3{background-color: #a9c6aa82;}
+
+.aboutme section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.aboutme{
+	flex-basis: 55%;
+	padding: 30px;
+}
+
+.aboutme h2{
+	margin: 0;
+	font-size: 45px;
+	font-family: 'Kaushan Script', cursive;
+}
+.aboutme span{
+	color: brown;
+	text-transform: uppercase;
+}
+.aboutme p{
+	font-size: 28px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.mypicture{
+	flex-basis: 40%;
+	padding: 30px;
+}
+
+.mypicture img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 11px 0px #16161617;
+}
+
+.video section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.Gallery-section{
+	padding: 100px 30px;
+}
+.Gallery-section .flex{
+	flex-wrap: wrap;
+}
+
+.Gallery{
+	flex-basis: 25%;
+	padding: 5px;
+}
+
+.Gallery img{
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	height: 300px;
+	object-fit: cover;
+}
+
+
+
+.contact-section{
+    padding: 80px 0;
+    background-color: #a7c4a40f;
+    }
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+}
+.contact-form h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Kaushan Script', cursive;
+	color: #9db681;
+}
+
+.video-section{
+    background: #a8c6a9;
+    padding: 80px 0;
+}
+.video-section iframe{
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 55px 20px -50px #3333334f;
+}
+
+form{}
+
+.input{}
+.input strong{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 2px;
+	margin-top: 10px;
+	font-family: 'Kaushan Script', cursive;
+	color: #9db681;
+}
+.input input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+.input textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.gender{}
+.gender strong{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-family: 'Kaushan Script', cursive;
+    color: #9db681;
+}
+.gender input{}
+.gender label{}
+
+.subject{}
+.subject strong{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-family: 'Kaushan Script', cursive;
+    color: #9db681;
+}
+.subject input{}
+.subject label{}
+
+.submit{}
+.submit input{
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a4c099;
+    background: #a4c099;
+    color: #fff;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+}
+
+
+
+footer{
+background-color:background: rgb(149,170,99);
+background: linear-gradient(90deg,  rgba(169,199,172,1) 0%,rgba(149,170,99,1) 100%);;
+padding: 100px 0;
+}
+.f_coloum{
+	flex-basis:33.33% ;
+	max-width: 33.33%;
+}
+.f_coloum h4{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+}
+.f_coloum ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.f_coloum a{
+	color: #fff;
+	font-size: 18px;
+	display: block;
+	margin-top: 10px;
+}
+
+
+
+footer{}
+.f_coloum{}
+.f_coloum h4{}
+.f_coloum ul{}
+.f_coloum ul li {}
+.f_coloum ul li a{}
+.f_coloum ul li a:hover{}
